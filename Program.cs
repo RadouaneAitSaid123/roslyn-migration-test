@@ -1,12 +1,8 @@
-using System;
-
 namespace TestApp
 {
-    class Program
+    public class Calculator
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine(`"Hello from .NET 6`");
-        }
+        public int Add(int a, int b) => a + b;
+        public int Multiply(int a, int b) => a * b;
     }
 }
